@@ -377,7 +377,60 @@ justify-content: center;
     .client__card img{
       border-radius: 2rem;
     }
+    /* PROJECT */
+    .project{
+      padding:5rem 0;
+    }
+    .project__title{
+      text-align: center;
+     }
+     .project__title h3{
+      font-size: 5rem;
+      font-weight: 500;
+      margin-bottom: 2rem;
+  
+     }
+     .project__title h3{
+      font-size: 5rem;
+      font-weight: 500;
+      margin-bottom: 2rem;
+  
+     }
+     .project__title p{
+      font-weight: 2rem;
+      font-weight: 300;
+      margin-bottom: 2rem;
+    }
+    .project__wrapper{
+      display: grid;
+      grid-template-columns: 30rem 30rem 30rem;
+      gap: 1rem;
+      align-content: center;
+      justify-content: center;
+      
+     }
+     .project__card{
+      padding: 4rem;
+      border-radius: 1rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+ 
+    }
+    .project__card img{
+      filter: brightness(60%);
+    }
+ 
+    .project__card h2{
+      font-size: 2rem;
+      font-weight: 500;
+      margin-bottom: 2rem;
+      text-align: center;
+      
     
+    }
+
 
 
 
